@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Santa Monica Physical Therapy</title>
+    <meta property="og:title" content="Santa Monica Physical Therapy">
+    <meta name="apple-mobile-web-app-title" content="Santa Monica Physical Therapy">
+
+    <!-- url -->
+    <link rel="canonical" href="https://www.santamonicapt.com">
+    <meta property="og:url" content="https://www.santamonicapt.com">
+
+    <!-- description -->
+    <meta name="description"
+        content="(formerly Gail Wehner PT) Orthopedic + Sports Physical Therapy since 1984. 1821 Wilshire Blvd, Ste 400, Santa Monica, CA 90403. 310-828-2188. Open 7a-6p Mon-Fri">
+    <meta property="og:description"
+        content="(formerly Gail Wehner PT) Orthopedic + Sports Physical Therapy since 1984. 1821 Wilshire Blvd, Ste 400, Santa Monica, CA 90403. 310-828-2188. Open 7a-6p Mon-Fri">
+    <meta property="og:type" content="website">
+
+    <!-- image -->
+    <meta property="og:image" content="https://www.santamonicapt.com/assets/img/logo1200x630.png">
+    <meta property="og:image:alt" content="Santa Monica Physical Therapy Orthopedic + Sports Physical Therapy" />
+
+    <!-- theme -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#6797AA">
+
+    <!-- icons -->
+    <link rel="icon" sizes="192x192" href="./assets/img/logo192x192.png">
+    <link rel="apple-touch-icon" href="./assets/img/logo192x192.png">
+    <meta name="msapplication-square310x310logo" content="./assets/img/logo310x310.png">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- structured data -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://www.schema.org",
+            "@type": "Physician",
+            "@id": "https://www.santamonicapt.com",
+            "name": "Santa Monica Physical Therapy",
+            "image": "https://www.santamonicapt.com/assets/img/logo1200x630.png",
+            "url": "https://www.santamonicapt.com",
+            "logo": "https://www.santamonicapt.com/assets/img/favicon.png",
+            "description": "Orthopedic + Sports Physical Therapy serving Santa Monica since 1984",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1821 Wilshire Blvd, Suite 400",
+                "addressLocality": "Santa Monica",
+                "addressRegion": "CA",
+                "postalCode": "90403",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "34.030545",
+                "longitude": " -118.484660"
+            },
+            "hasMap": "https://goo.gl/maps/6dgYr8wF2JJKBhcu5",
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "07:00",
+                "closes": "18:00"
+            },
+            "telephone": "310-828-2188",
+            "email": "frontdesk@santamonicapt.com",
+            "fax": "310-829-1379"
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="fixed-top">
+            <div class="top-bar">
+                <div class="col">
+                    <div role="presentation" class="logo">
+                        <img role="presentation" src="./assets/img/logo570x220.png"
+                            alt="SMPT logo Santa Monica Physical Therapy, Orthopedic & Sports Physical Therapy">
+                    </div>
+                    <a id="skip-nav" class="sr-only sr-only-focusable" href="#title">skip navigation</a>
+                    <div class="actions">
+                        <a href="./contact.html">Request Appointment</a>
+                        <a href="tel:310-828-2188">310-828-2188</a>
+                    </div>
+                    <div id="nav-trigger" tabindex="0" role="presentation" class="menu-icon" onclick="openMenu()">
+                        <div role="presentation" class="menu-icon-bar"></div>
+                        <div role="presentation" class="menu-icon-bar"></div>
+                        <div role="presentation" class="menu-icon-bar"></div>
+                    </div>
+                </div>
+            </div>
+            <nav id="nav-collapse" aria-label="website">
+                <ul role="menu" aria-label="main">
+                    <li><a role="menuitem" href="./">Home</a></li>
+                    <li><a role="menuitem" href="./services.html">Services</a></li>
+                    <li><a role="menuitem" href="./staff.html">Staff</a></li>
+                    <li><a role="menuitem" href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="covid">
+            <div>
+                <h2 class="covidAlert">Update on coronavirus (COVID-19)</h2>
+                <p class="covidParagraph">
+                    If you are a current patient and have any cold or flu symptoms, you will be asked to cancel your
+                    appointment and can resume in 2 weeks or following a negative test result. Free testing for LA county can be found here:<br>
+                    <a href="https://covid19.lacounty.gov/testing/" target="_blank">https://covid19.lacounty.gov/testing/</a>
+                    <br><br>
+                    You can still continue your care from home with our e-visit program. Call or email today to schedule your appointments!
+                </p>
+            </div>
+            <!-- Trigger/Open The Modal -->
+            <button class="covidButton" id="covidButton">Safety Measures</button>
+
+            <!-- The Modal -->
+            <div id="covidModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 style="font-size: 18px; font-weight: bold; text-align: center; padding: 10px;">COVID-19 SAFETY
+                        PRECAUTIONS</h3>
+                    <p>&#9642; Patients will be scheduled for 45min sessions on the hour to provide a 15min
+                        gap between every patient<br><br>
+                        &#9642; E-visits will continue to occur on non-physically present days<br><br>
+                        &#9642; All patients will receive a temperature check and must confirm that they do
+                        not have any of the CDC listed symptoms of COVID-19 infection<br><br>
+                        &#9642; All staff and patients MUST wear a mask at all times within the
+                        facility<br><br>
+                        &#9642; All surfaces and equipment will be sanitized each use<br><br>
+                        &#9642; All patients and staff must wash hands before and after their
+                        session<br><br>
+                        &#9642; 6ft separation will be enforced as much as reasonably possible</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- END OF HEADER -->
+        <section class="carousel-wrapper">
+            <div class="carousel">
+                <!-- each slide needs a unique id and class "carousel-slide" to function -->
+                <img id="slide-1" class="carousel-slide carousel-next" src="./assets/img/slide1-demo.jpg"
+                    alt="Manual therapy on ankle" aria-hidden="true">
+                <img id="slide-2" class="carousel-slide" src="./assets/img/slide2-demo.jpg"
+                    alt="Therapist holding head of lying client" aria-hidden="true">
+                <img id="slide-3" class="carousel-slide" src="./assets/img/slide3-demo.jpg"
+                    alt="woman sitting upright on pilates reformer" aria-hidden="true">
+                <img id="slide-4" class="carousel-slide" src="./assets/img/slide4-demo.jpg" alt="masssage of hands"
+                    aria-hidden="true">
+                <img id="slide-5" class="carousel-slide" src="./assets/img/slide5-demo.jpg"
+                    alt="physical therapy stepping exercise" aria-hidden="true">
+                <img id="slide-6" class="carousel-slide" src="./assets/img/slide6-demo.jpg"
+                    alt="arm pulling handle of exercise equipment" aria-hidden="true">
+            </div>
+            <div class="carousel-overlay">
+                <h1 id="title">Santa Monica<br class="br-mobile"> Physical Therapy</h1>
+                <p class="title-sub">Orthopedic & Sports<br class="br-mobile"> Physical Therapy</p>
+            </div>
+            <div class="carousel-control carousel-control-left">
+                <div class="carousel-arrow scroll-padding" role="button" tabindex="0" aria-label="slideshow left arrow"
+                    onclick="previousSlide()">
+                    <div role="presentation"></div>
+                    <div role="presentation"></div>
+                </div>
+            </div>
+            <div class="carousel-control carousel-control-right">
+                <div class="carousel-arrow scroll-padding" role="button" tabindex="0" aria-label="slideshow right arrow"
+                    onclick="nextSlide()">
+                    <div role="presentation"></div>
+                    <div role="presentation"></div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <div class="alt-section row">
+            <section aria-labelledby="h-about" class="sections about col scroll-padding">
+                <h2 id="h-about">About</h2>
+                Santa Monica Physical Therapy (formerly Gail Wehner Physical Therapy) is a clinic that focuses on what
+                matters most: the patient. We pride ourselves in providing those in our care one-on-one treatment
+                without using any aides or PT Assistants in order to give you the best possible treatment. We will
+                help you return to the things you love doing with a combination of manual therapy, education on how your
+                body functions, and graded therapeutic exercises to improve the way you move.
+            </section>
+        </div>
+        <div class="prim-section row">
+            <section aria-labelledby="h-services" class="sections services col scroll-padding">
+                <h2 id="h-services">Services</h2>
+                <div class="box">
+                    <div>
+                        <h3 id="h-care">1-TO-1 HANDS-ON DIRECT CARE</h3>
+                        <ul aria-labelledby="h-services h-care">
+                            <li>Comprehensive evaluation</li>
+                            <li>Patient education</li>
+                            <li>Manual Therapy</li>
+                            <li>Joint mobilizations</li>
+                            <li>Soft tissue mobilizations</li>
+                            <li>Therapeutic exercises</li>
+                            <li>Biomechanical evaluation and training</li>
+                            <li>Postural training</li>
+                            <li>Functional retraining</li>
+                            <li>Gait training</li>
+                            <li>Balance training</li>
+                            <li>Sports specific training</li>
+                            <li>Workstation ergonomics</li>
+                            <li>Running Analysis</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 id="h-modalities">THERAPEUTIC MODALITIES</h3>
+                        <ul aria-labelledby="h-services h-modalities">
+                            <li>Blood flow restriction training</li>
+                            <li>Mechanical spinal traction</li>
+                            <li>Electrical stimulation (TENS)</li>
+                            <li>Neuromuscular Electrical Stimulation (NMES)</li>
+                            <li>Ultrasound</li>
+                            <li>Phonophoresis</li>
+                            <li>Iontophoresis</li>
+                            <li>Theragun</li>
+                            <li>McConnell Tape</li>
+                            <li>K-Tape</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="alt-section row">
+            <section aria-labelledby="h-staff" class="sections col scroll-padding">
+                <h2 id="h-staff">Staff</h2>
+                <h3 id="h-pt">Physical Therapists</h3>
+                <ul aria-labelledby="h-staff h-pt" class="box">
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/jts400.jpg" alt="Jordan Tsai, PT, DPT">
+                        Jordan Tsai, PT, DPT
+                    </li>
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/jth400.jpg" alt="Jennifer Thai, PT, DPT, OCS">
+                        Jennifer Thai, PT, DPT, OCS
+                    </li>
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/hh400.jpg" alt="Hanna Hoffman, PT, DPT">
+                        Hanna Hoffman, PT, DPT
+                    </li>
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/ac400.jpg" alt="Alex Cascone, PT, DPT">
+                        Alex Cascone, PT, DPT
+                    </li>
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/ai400.jpg" alt="Arian Irannejad, PT, DPT">
+                        Arian Irannejad, PT, DPT
+                    </li>
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/kw400.jpg" alt="Kelvin Wong, PT, DPT">
+                        Kelvin Wong, PT, DPT
+                    </li>
+                </ul>
+                <h3 id="h-admin">Administrative</h3>
+                <ul aria-labelledby="h-staff h-admin" class="box">
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/nl400.jpg"
+                            alt="Nicole Lapardo, Office Manager">
+                        Nicole Lapardo, Office Manager
+                    </li>
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/dl400.jpg" alt="Deneka Love">
+                        Deneka Love
+                    </li>
+                    <li class="person">
+                        <img role="presentation" src="./assets/img/staff/tm400.jpg" alt="Trish Mullen">
+                        Trisha Mullen
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="prim-section row">
+            <section aria-labelledby="h-insurance" class="sections insurance col">
+                <h2 id="h-insurance">Insurance</h2>
+                <ul tab-index="0" aria-labelledby="h-insurance" class="box">
+                    <li><span class="sr-only">Medicare</span><img role="presentation"
+                            src="assets/img/insurance/medicare.png" alt="Medicare logo"> </li>
+                    <li><span class="sr-only">BlueShield</span><img role="presentation"
+                            src="./assets/img/insurance/blueshield.png" alt="BlueShield logo"></li>
+                    <li><span class="sr-only">Aetna</span><img role="presentation"
+                            src="./assets/img/insurance/aetna.png" alt="Aetna logo"></li>
+                    <li><span class="sr-only">Blue Cross</span><img role="presentation"
+                            src="./assets/img/insurance/bluecross.png" alt="Blue Cross logo"></li>
+                    <li><span class="sr-only">Cigna</span><img role="presentation"
+                            src="./assets/img/insurance/cigna.png" alt="Cigna logo"></li>
+                </ul>
+            </section>
+            <div id="CCPA">
+                <br>
+                <p>The California Consumer Privacy Act (CCPA), effective January 1, 2020 creates new consumer rights
+                    relating to the access to, deletion of, and sharing of personal information that is collected by
+                    businesses. BBB encourages all California-based businesses and businesses doing business in
+                    California to comply with CCPA policies and regulations.
+                    <br><br>You can learn more about California’s CCPA by reviewing this state sponsored CCPA link: <a
+                        href="https://oag.ca.gov/privacy/ccpa">https://oag.ca.gov/privacy/ccpa</a>; or, by following
+                    additional information via this BBB link: <a
+                        href="https://betterbusiness.blubrry.com/2020/02/05/ccpa-is-here-what-does-it-mean-for-businesses/">https://betterbusiness.blubrry.com/2020/02/05/ccpa-is-here-what-does-it-mean-for-businesses/</a>;
+                    or, by contacting your legal counsel.</p>
+                <br><br>
+                <a id="bbblink" class="sehzbum"
+                    href="https://www.bbb.org/us/ca/santa-monica/profile/physical-therapist/santa-monica-physical-therapy-1216-1091520#bbbseal"
+                    title="Santa Monica Physical Therapy Inc, Physical Therapist, Santa Monica, CA"
+                    style="display: block;position: relative;overflow: hidden; width: 150px; height: 57px; padding: 0px; margin-left: auto; margin-right: auto;"><img
+                        style="padding: 0px; border: none; margin-left: auto; margin-right: auto;" id="bbblinkimg"
+                        src="https://seal-sanjose.bbb.org/logo/sehzbum/santa-monica-physical-therapy-1091520.png"
+                        width="300" height="57"
+                        alt="Santa Monica Physical Therapy Inc, Physical Therapist, Santa Monica, CA" /></a>
+            </div>
+        </div>
+    </main>
+    <footer class="alt-section">
+        <div class="row">
+            <section aria-labelledby="h-location" class="sections location col scroll-padding">
+                <h2 id="h-location">Location</h2>
+                <div class="box">
+                    <div>
+                        <h3>Address</h3>
+                        <address aria-label="location street address">
+                            1821 Wilshire Blvd. Ste 400<br>
+                            Santa Monica, CA 90403
+                        </address>
+                    </div>
+                    <div>
+                        <h3 id="h-hours">Hours</h3>
+                        <p aria-labelledby="h-location h-hours">
+                            Monday - Friday<br>
+                            7AM - 6PM
+                        </p>
+                    </div>
+                    <div>
+                        <h3 id="h-phone">Phone</h3>
+                        <address aria-labelledby="h-location h-phone">
+                            (310) 828-2188
+                        </address>
+                    </div>
+                    <div>
+                        <h3 id="h-phone">Fax</h3>
+                        <address aria-labelledby="h-location h-fax">
+                            (310) 829-1379
+                        </address>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <iframe title="Google Maps location"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBhA5smfmlEc7s3WEO7raxvTKeWAtFOAC8&q=Santa+Monica+Physical+Therapy%2C1821+Wilshire+Blvd%2C+Santa+Monica%2C+CA+90403"
+            allowfullscreen></iframe>
+        <nav class="row" aria-label="website">
+
+            <ul class="box" role="menu" aria-label="main">
+                <li><a role="menuitem" href="./">Home</a></li>
+                <li><a role="menuitem" href="./services.html">Services</a></li>
+                <li><a role="menuitem" href="./staff.html">Staff</a></li>
+                <li><a role="menuitem" href="./contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+        © 2020
+    </footer>
+
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+    <script type="text/javascript">
+        var bbbprotocol = (("https:" == document.location.protocol) ? "https://" : "http://"); (
+            function () {
+                var s = document.createElement('script');
+                s.src = bbbprotocol + 'seal-sanjose.bbb.org' + unescape('%2Flogo%2Fsanta-monica-physical-therapy-1091520.js');
+                s.type = 'text/javascript';
+                s.async = true;
+                var st = document.getElementsByTagName('script');
+                st = st[st.length - 1];
+                var pt = st.parentNode;
+                pt.insertBefore(s, pt.nextSibling);
+            })
+            ();
+    </script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("covidModal");
+        // Get the button that opens the modal
+        var btn = document.getElementById("covidButton");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
