@@ -24,7 +24,9 @@
     "url": "https://github.com/jordantsai/respawn-therapy/issues"
   },
   "homepage": "https://github.com/jordantsai/respawn-therapy",
-  "dependencies": {},
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
   "browserslist": [
     ">0.2% in US",
     "not ie <= 10"

@@ -50,9 +50,7 @@ nav {
 @media only screen and (max-width: 700px) {
   #navbarToggleExternalContent a {
     color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     background-color: #ffffff;
     opacity: .6;
     width: 100vw; }
@@ -167,6 +165,14 @@ body {
     padding: 0 8px; }
   .box > * {
     padding: 8px; } }
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .social-media img {
+    width: 125px;
+    padding: 10px; }
 
 .actions a:first-child {
   background-color: #025272;

@@ -70,9 +70,7 @@ nav {
 #navbarToggleExternalContent {
     a {
         color: #000000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
         background-color: #ffffff;
         opacity: .6;
         width: 100vw;
@@ -232,7 +230,16 @@ body {
         padding: 8px;
     }
 }
-
+//Social Media
+.social-media {
+    img {
+        width: 125px;
+        padding: 10px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 //Buttons
 .actions a:first-child {
     background-color: $primary;
