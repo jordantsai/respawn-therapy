@@ -48,8 +48,6 @@ nav {
   text-align: center; }
 
 @media only screen and (max-width: 700px) {
-  nav {
-    background-color: #819198 !important; }
   #navbarToggleExternalContent a {
     color: #000000;
     display: flex;
@@ -57,7 +55,7 @@ nav {
     align-items: center;
     background-color: #ffffff;
     opacity: .6;
-    width: 100vw; }
+    width: 90vw; }
   #navbarToggleExternalContent a:hover, #navbarToggleExternalContent a:active, #navbarToggleExternalContent a:focus {
     border-bottom: #025272 double; } }
 
