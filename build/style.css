@@ -33,6 +33,9 @@ h1, h2, h3 {
   white-space: normal;
   overflow: visible; }
 
+nav {
+  padding-bottom: 20px; }
+
 #navbarToggleExternalContent a {
   padding: 0 24px;
   color: #ffffff; }
