@@ -3,37 +3,6 @@
 $primary: #025272;
 $secondary: #6797AA;
 
-.header-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    border-left: none;
-    border-right: none;
-    z-index: -1;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 40px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-  }
-  
-#CCPA {
-    padding: 30px 5px 0px 5px;  
-    font-size: 10px;
-    text-align: center;
-}
-@media screen and (max-width: 900px) {
-    #covidActions {display: none;}    
-    }
 @font-face {
     font-family: "Fivo Sans Medium";
     src: url("../font/FivoSans-Medium.otf");
@@ -54,7 +23,6 @@ h1, h2, h3 {
 }
 
 // Accessibility
-
 *:focus {
     outline: dotted 2px $secondary;
     outline-offset: 2px;
@@ -79,8 +47,49 @@ h1, h2, h3 {
     overflow: visible;
 }
 
-// Body 
+//NAVBAR
+  #navbarToggleExternalContent {
+    a {
+        padding: 0 24px;
+        color: #000000;
+        }
 
+    a:hover, a:active, a:focus {
+        border-bottom: $primary double;
+        }
+}
+.navbar-collapse {
+    display: inline-block;
+    text-align: center;
+}
+@media only screen and (max-width: 700px) {
+#navbarToggleExternalContent {
+    a {
+        padding: 0 24px;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    a:hover, a:active, a:focus {
+        border-bottom: $primary double;
+        }
+}
+}
+
+
+// Video Header
+.header-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-left: none;
+    border-right: none;
+    z-index: -1;
+  }
+
+// Body 
 body {
     margin-top: 148px;
 }
@@ -195,57 +204,7 @@ body {
     }
 }
 
-// HEADER & NAVIGATION
-
-.fixed-top {
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    width: 100%;
-}
-
-.top-bar {
-    box-shadow: 0px 3px 3px #1440521a;
-    background: white;
-    padding: 0 8px;
-}
-
-.top-bar>div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    height: 100px;
-    padding: 8px 0;
-
-    img {
-        height: 100%;
-    }
-}
-
-#title {
-    margin-bottom: 2em;
-    text-align: center;
-    color: white;
-    font-size: 48px;
-    line-height: 1.5;
-    text-shadow: 2px 2px 2px rgba(1, 1, 1, 0.5);
-}
-
-.title-sub {
-    font-size: 36px;
-    text-align: center;
-    color: white;
-    line-height: 1.5;
-    text-shadow: 2px 2px 2px rgba(1, 1, 1, 0.5);
-}
-
-#skip-nav {
-    color: $primary;
-}
-
+//Buttons
 .actions a:first-child {
     background-color: $primary;
     margin-right: 4px;
@@ -288,57 +247,6 @@ body {
     a:active {
         transform: translate(0, 1px);
         box-shadow: none;
-    }
-}
-.covidButton {
-    background-color: $primary;
-    margin-right: 4px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 4px;
-        height: 48px;
-        width: 150px;
-        padding: 0 8px;
-        line-height: 18px;
-        font-size: 14px;
-        text-align: center;
-        color: white;
-        text-decoration: none;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        margin-top: 10px;
-}
-
-.covidButton:hover {
-    transform: translate(0, -1px);
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3)
-}
-
-.covidButton:active {
-    transform: translate(0, 1px);
-    box-shadow: none;
-}
-#nav-collapse {
-    background-color: $secondary;
-
-    ul {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    a {
-        display: inline-block;
-        padding: 0 24px;
-        line-height: 48px;
-        text-decoration: none;
-        color: white;
-        transition: background-color 0.5s ease;
-    }
-
-    a:hover, a:active, a:focus {
-        background-color: $primary;
     }
 }
 
