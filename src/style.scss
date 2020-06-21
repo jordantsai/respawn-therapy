@@ -285,7 +285,7 @@ body {
 .carousel-wrapper {
     position: relative;
     height: calc(100vh - 148px);
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -687,6 +687,7 @@ body {
 }
 
 footer {
+    width: 100vw;
     text-align: center;
     font-size: 14px;
     color: hsla(197, 10%, 55%, 1);
