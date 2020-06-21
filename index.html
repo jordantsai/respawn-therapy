@@ -85,8 +85,20 @@
 <body>
     <header>
 
-<!-- NAV BAR -->
-        <nav class="navbar bg-transparent navbar-light">
+
+
+ <!-- VIDEO HEADER -->
+ <div class="header-container">
+    <div class="video-container">
+      <video preload="true" autoplay="autoplay" muted poster="Hero.png" loop id="headerVideo" style="width: 100%;">
+        <source src="assets/video/header.mp4" type="video/mp4">
+      </video>
+</div> 
+ </div>
+   <!-- VIDEO HEADER END -->
+
+ <!-- NAV BAR -->
+        <nav class="navbar bg-transparent navbar-dark video-overlay">
             <a class="navbar-brand" href="#"><img src="./assets/img/logo570x220.png" alt="logo" height="60px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
@@ -102,26 +114,19 @@
                     <a role="menuitem" href="./contact.html">Contact</a>
                     </ul>
             </div>
-            </nav>
-<!-- END OF NAVBAR -->
-
- <!-- VIDEO HEADER -->
- <div class="header-container">
-    <div class="video-container">
-      <video preload="true" autoplay="autoplay" muted poster="Hero.png" loop id="headerVideo" style="width: 100%;">
-        <source src="assets/video/header.mp4" type="video/mp4">
-      </video>
+        </nav>
+<!-- END OF NAVBAR -->   
+<div>
+    <div class="row mission-statement">
+        <h1 class="mission-statement-words">GAME ON.</h1>
     </div>
-      </div>
-  <!-- VIDEO HEADER END -->
-
-    
-
-
+</div>  
+    </header>
         <!-- END OF HEADER -->
+       
+    <main>
         <section class="carousel-wrapper">
             <div class="carousel">
-                <!-- each slide needs a unique id and class "carousel-slide" to function -->
                 <img id="slide-1" class="carousel-slide carousel-next" src="./assets/img/slide1-demo.jpg"
                     alt="Manual therapy on ankle" aria-hidden="true">
                 <img id="slide-2" class="carousel-slide" src="./assets/img/slide2-demo.jpg"
@@ -154,9 +159,6 @@
                 </div>
             </div>
         </section>
-    </header>
-
-    <main>
 
         <div class="alt-section row">
             <section aria-labelledby="h-about" class="sections about col scroll-padding">
