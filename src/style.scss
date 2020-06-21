@@ -75,7 +75,7 @@ nav {
         align-items: center;
         background-color: #ffffff;
         opacity: .6;
-        width: 90vw;
+        width: 100vw;
         }
 
     a:hover, a:active, a:focus {
@@ -133,7 +133,7 @@ body {
 }
 
 .sections {
-    padding: 0;
+    padding: 0 48px;
     text-align: center;
     line-height: 2;
 
@@ -285,7 +285,7 @@ body {
 .carousel-wrapper {
     position: relative;
     height: calc(100vh - 148px);
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -687,7 +687,6 @@ body {
 }
 
 footer {
-    width: 100vw;
     text-align: center;
     font-size: 14px;
     color: hsla(197, 10%, 55%, 1);

@@ -55,7 +55,7 @@ nav {
     align-items: center;
     background-color: #ffffff;
     opacity: .6;
-    width: 90vw; }
+    width: 100vw; }
   #navbarToggleExternalContent a:hover, #navbarToggleExternalContent a:active, #navbarToggleExternalContent a:focus {
     border-bottom: #025272 double; } }
 
@@ -104,7 +104,7 @@ body {
   padding: 64px 0; }
 
 .sections {
-  padding: 0;
+  padding: 0 48px;
   text-align: center;
   line-height: 2; }
   .sections h2 {
@@ -206,7 +206,7 @@ body {
 .carousel-wrapper {
   position: relative;
   height: calc(100vh - 148px);
-  width: 100vw;
+  width: 100%;
   overflow: hidden; }
 
 .vh-50 {
@@ -481,7 +481,6 @@ body {
   color: #6797aa; }
 
 footer {
-  width: 100vw;
   text-align: center;
   font-size: 14px;
   color: #819198; }
