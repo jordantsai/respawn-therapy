@@ -48,6 +48,8 @@ nav {
   text-align: center; }
 
 @media only screen and (max-width: 700px) {
+  .navbar img {
+    display: block; }
   #navbarToggleExternalContent a {
     color: #000000;
     display: block;
@@ -94,6 +96,10 @@ video {
     width: fit-content;
     margin-right: auto;
     margin-left: auto; }
+
+@media only screen and (max-width: 700px) {
+  .mission-statement img {
+    display: none; } }
 
 body {
   margin-top: 148px; }
@@ -159,8 +165,9 @@ body {
   .sections {
     padding: 0 16px;
     line-height: 1.75;
-    font-family: tr h2;
-      font-family-font-size: 28px; }
+    font-family: Arial, Helvetica, sans-serif; }
+    .sections h2 {
+      font-size: 28px; }
   .box > * {
     padding: 12px; } }
 
