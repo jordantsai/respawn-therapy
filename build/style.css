@@ -185,6 +185,11 @@ body {
   .social-media img {
     width: 125px;
     padding: 20px; }
+  .social-media a:hover img, .social-media a:active img, .social-media a:focus img {
+    background-color: rgba(78, 178, 218, 0.651);
+    width: 125px;
+    height: 125px;
+    border-radius: 100px; }
 
 .actions a:first-child {
   background-color: #025272;
