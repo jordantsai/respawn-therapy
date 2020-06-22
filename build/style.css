@@ -52,8 +52,6 @@ nav {
   text-align: center; }
 
 @media only screen and (max-width: 700px) {
-  .navbar img {
-    display: block; }
   #navbarToggleExternalContent a {
     display: block;
     width: 100vw; }
@@ -102,10 +100,6 @@ video {
     padding: 15px;
     opacity: .8;
     border-radius: 25px; }
-
-@media only screen and (max-width: 700px) {
-  .mission-statement img {
-    display: none; } }
 
 body {
   margin-top: 148px; }
