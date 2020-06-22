@@ -53,12 +53,16 @@ nav {
 }
   #navbarToggleExternalContent {
     a {
-        padding: 0 24px;
+        padding: 10px 15px;
+        margin: 0px 10px;
         color: #ffffff;
+        background-color: black;
+        opacity: .8;
+        border-radius: 25px;
         }
 
     a:hover, a:active, a:focus {
-        border-bottom: $primary double;
+        border: 3px solid  rgba(78, 178, 218, 0.966);
         }
 }
 .navbar-collapse {
@@ -73,10 +77,7 @@ nav {
 }
 #navbarToggleExternalContent {
     a {
-        color: #000000;
         display: block;
-        background-color: #ffffff;
-        opacity: .6;
         width: 100vw;
         }
 
@@ -120,11 +121,15 @@ video {
     font-size: 60px;
 }
     h1 {
-        background-color: white;
+        background-color:  rgba(78, 178, 218, 0.966);
+        color: white;
         width: fit-content;
         margin-right: auto;
         margin-left: auto;
-        padding: 20px;
+        margin-top: 20px;
+        padding: 15px;
+        opacity: .8;
+        border-radius: 25px;
     }
 }
 @media only screen and (max-width: 700px) {
