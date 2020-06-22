@@ -104,17 +104,23 @@ video {
     left: 0;
   }
 .mission-statement {
+    display: block;
     height: 80vh;
-}
-.mission-statement-words {
-    margin-left: auto;
+    z-index: 1;
+    li {
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-color: white;
+    margin-left: auto;
+    text-align: center;
     color: black;
-    opacity: .8;
+    opacity: .9;
     font-size: 60px;
+}
+    h1 {
+        background-color: white;
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 // Body 
 body {
@@ -147,7 +153,7 @@ body {
 }
 
 .prim-section {
-    background-color: hsla(197, 5%, 95%, 1);
+    background-color: rgba(197, 197, 197, 0.85);
     color: hsla(197, 5%, 5%, 1);
 
     h2 {
@@ -156,7 +162,7 @@ body {
 }
 
 .alt-section {
-    background-color: rgb(87, 87, 87);
+    background-color: rgba(20, 20, 20, 0.945);
     color: hsla(197, 15%, 85%, 1);
 
     h2 {
@@ -234,7 +240,7 @@ body {
 .social-media {
     img {
         width: 125px;
-        padding: 10px;
+        padding: 20px;
     }
     display: flex;
     justify-content: center;

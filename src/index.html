@@ -101,7 +101,8 @@
 
         <!-- NAV BAR -->
         <nav class="navbar bg-transparent navbar-dark video-overlay">
-            <a class="navbar-brand" href="#"><img src="./assets/img/logo570x220.png" alt="logo" height="60px"></a>
+            <a class="navbar-brand" href="#"><img src="./assets/img/logo192x192.png" alt="logo" height="60px"
+                    style="display: none;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -118,33 +119,36 @@
             </div>
         </nav>
         <!-- END OF NAVBAR -->
-        <div>
-            <div class="row mission-statement">
-                <h1 class="mission-statement-words">GAME ON.</h1>
-            </div>
+        <div class="mission-statement">
+            <ul>
+                <li><img src="./assets/img/logo310x310.png" alt="Respawn Therapy Logo" style="width: 300px;"></li>
+                <li><h1 class="mission-statement-words">GAME ON.</h1></li>
+            </ul>
         </div>
     </header>
     <!-- END OF HEADER -->
 
     <main>
-        <div class="alt-section row social-media">
+        <div class="alt-section row">
+            <section aria-labelledby="h-about" class="sections about col scroll-padding">
+                <h2 id="h-about">About</h2>
+                We are Doctors of Physical Therapy who specialize in working with competitive and recreational gamers.
+                We have extensive experience in keeping professional Esports organizations operating at peak performance
+                and can help you play without pain.<br>Contact us today for a free consultation!
+            </section>
+        </div>
+        <div class="prim-section row social-media">
             <section aria-labelledby="social-media" class="sections col scroll-padding">
                 <ul>
-                    <div data-aos="fade-right">
+                    <div data-aos="zoom-out-up">
                         <a href="http://instagram.com/respawn.therapy" target="_blank"><img
                                 src="./assets/img/social-media/instagram.png" alt="Discord"></a>
-                    </div>
-                    <div data-aos="fade-right"><a href="https://discord.com/invite/rMR42e" target="_blank"><img
+                        <a href="https://discord.com/invite/rMR42e" target="_blank"><img
                                 src="./assets/img/social-media/discord.png" alt="Discord"></a>
-                    </div>
-                    <div data-aos="fade-right"><a href="https://www.facebook.com/respawn.therapy/" target="_blank"><img
+                        <a href="https://www.facebook.com/respawn.therapy/" target="_blank"><img
                                 src="./assets/img/social-media/facebook.png" alt="Facebook"></a>
-                    </div>
-                    <div data-aos="fade-right"><a href="" target="_blank"><img src="./assets/img/social-media/twitch.png"
-                                alt="Twitch"></a>
-                    </div>
-                    <div data-aos="fade-right"><a href="" target="_blank"><img
-                                src="./assets/img/social-media/twitter.png" alt="Twitter"></a>
+                        <a href="" target="_blank"><img src="./assets/img/social-media/twitch.png" alt="Twitch"></a>
+                        <a href="" target="_blank"><img src="./assets/img/social-media/twitter.png" alt="Twitter"></a>
                     </div>
                 </ul>
             </section>
@@ -184,16 +188,6 @@
             </div>
         </section>
 
-        <div class="alt-section row">
-            <section aria-labelledby="h-about" class="sections about col scroll-padding">
-                <h2 id="h-about">About</h2>
-                Respawn Therapy (formerly Gail Wehner Physical Therapy) is a clinic that focuses on what
-                matters most: the patient. We pride ourselves in providing those in our care one-on-one treatment
-                without using any aides or PT Assistants in order to give you the best possible treatment. We will
-                help you return to the things you love doing with a combination of manual therapy, education on how your
-                body functions, and graded therapeutic exercises to improve the way you move.
-            </section>
-        </div>
         <div class="prim-section row">
             <section aria-labelledby="h-services" class="sections services col scroll-padding">
                 <h2 id="h-services">Services</h2>
@@ -383,8 +377,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 3000,
-            delay: 350,
+            duration: 2000,
+            delay: 50,
             easing: 'ease',
             once: false,
         });

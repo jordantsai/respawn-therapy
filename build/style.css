@@ -79,17 +79,21 @@ video {
   left: 0; }
 
 .mission-statement {
-  height: 80vh; }
-
-.mission-statement-words {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  background-color: white;
-  color: black;
-  opacity: .8;
-  font-size: 60px; }
+  display: block;
+  height: 80vh;
+  z-index: 1; }
+  .mission-statement li {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: black;
+    opacity: .9;
+    font-size: 60px; }
+  .mission-statement h1 {
+    background-color: white;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto; }
 
 body {
   margin-top: 148px; }
@@ -113,13 +117,13 @@ body {
     margin: 16px; }
 
 .prim-section {
-  background-color: #f2f3f3;
+  background-color: rgba(197, 197, 197, 0.85);
   color: #0c0d0d; }
   .prim-section h2 {
     color: #025272; }
 
 .alt-section {
-  background-color: #575757;
+  background-color: rgba(20, 20, 20, 0.945);
   color: #d3dbde; }
   .alt-section h2 {
     color: #6797AA; }
@@ -172,7 +176,7 @@ body {
   align-items: center; }
   .social-media img {
     width: 125px;
-    padding: 10px; }
+    padding: 20px; }
 
 .actions a:first-child {
   background-color: #025272;
