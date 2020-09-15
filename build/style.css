@@ -102,6 +102,92 @@ video {
     opacity: .8;
     border-radius: 25px; }
 
+header.masthead {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../publish/assets/img/header-poster.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; }
+
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem; }
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem; }
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem; } }
+
+.container {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+
+.container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px; } }
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px; } }
+
 body {
   margin-top: 148px; }
 
@@ -110,7 +196,9 @@ body {
   margin: 0 auto; }
 
 .row {
-  padding: 64px 0; }
+  padding: 64px 0;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem; }
 
 .sections {
   padding: 0 48px;
@@ -127,7 +215,7 @@ body {
   background-color: rgba(197, 197, 197, 0.85);
   color: #0c0d0d; }
   .prim-section h2 {
-    color: #025272; }
+    color: rgba(78, 178, 218, 0.966); }
 
 .alt-section {
   background-color: rgba(20, 20, 20, 0.945);
@@ -192,7 +280,7 @@ body {
     border-radius: 100px; }
 
 .actions a:first-child {
-  background-color: #025272;
+  background-color: rgba(78, 178, 218, 0.966);
   margin-right: 4px; }
 
 .actions a:last-child {
@@ -455,7 +543,7 @@ body {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136; }
+  background-color: #414141; }
 
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -472,6 +560,10 @@ body {
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0; }
+
+.timeline > li#end-timeline h4:hover {
+  border: 7px solid rgba(78, 178, 218, 0.966);
+  border-radius: 100%; }
 
 .timeline > li.timeline-inverted > .timeline-panel:after {
   right: auto;
@@ -517,6 +609,18 @@ body {
     float: right;
     padding: 0 30px 20px 20px;
     text-align: left; } }
+
+.end-timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .end-timeline img {
+    opacity: .8; }
+  .end-timeline a:hover img, .end-timeline a:active img, .end-timeline a:focus img {
+    background-color: rgba(78, 178, 218, 0.651);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px; }
 
 @media (min-width: 992px) {
   .timeline > li {
@@ -628,7 +732,7 @@ body {
   height: 48px;
   line-height: 48px;
   padding: 0 8px;
-  background-color: #025272;
+  background-color: rgba(78, 178, 218, 0.966);
   border: 1px solid white;
   color: white;
   border-radius: 4px; }
