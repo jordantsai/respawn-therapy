@@ -114,7 +114,7 @@
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                 <ul role="menu" aria-label="main">
                     <a role="menuitem" href="./">Home</a>
-                    <a role="menuitem" href="./about.html">About</a>
+                    <a role="menuitem" href="./team.html">Team</a>
                     <a role="menuitem" href="./services.html">Services</a>
                     <a role="menuitem" href="./contact.html">Contact</a>
                 </ul>
@@ -150,6 +150,20 @@
                         </ul>
                     </div>
                 </div>
+                <h2 id="h-services" style="margin-top: 50px;">Clients</h2>
+                <div class="box pro-team">
+                    <div>
+                        <ul aria-labelledby="h-services h-care">
+                                <div>
+                                    <img src="./assets/img/pro-teams/cloud9.png" alt="Cloud9" data-toggle="popover" data-placement="top" data-content="Cloud9 uses Respawn Therapy for the following services.">
+                                    <img src="./assets/img/pro-teams/EG-stack.png" alt="EG-Stack" data-toggle="popover" data-placement="bottom" data-content="Evil Geniuses uses Respawn Therapy for the following services.">
+                                    <img src="./assets/img/pro-teams/tsm.png" alt="tsm" data-toggle="popover" data-placement="top" data-content="TSM Geniuses uses Respawn Therapy for the following services.">
+                                    <img src="./assets/img/pro-teams/TL.png" alt="TL" data-toggle="popover" data-placement="bottom" data-content="TL uses Respawn Therapy for the following services.">
+                                </div>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </div>
         <div class="prim-section row social-media">
@@ -165,8 +179,6 @@
                         <a href="" target="_blank"><img src="./assets/img/social-media/twitch.png" alt="Twitch"></a>
                         <a href="" target="_blank"><img src="./assets/img/social-media/twitter.png" alt="Twitter"></a>
                     </div>
-                </ul>
-                </li>
                 </ul>
             </section>
         </div>
@@ -219,6 +231,7 @@
         © 2020
     </footer>
 
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -237,6 +250,11 @@
             once: false,
         });
     </script>
+        <script>
+            $(document).ready(function(){
+              $('[data-toggle="popover"]').popover();
+            });
+            </script>
 </body>
 
 </html>
