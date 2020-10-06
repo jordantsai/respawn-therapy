@@ -84,49 +84,52 @@
 </head>
 
 <body>
-<header>
-<div class="header-container">
-    <div class="video-container">
-        <img src="./assets/img/header-fillin.jpg" alt="header" style="width: 100%;">
+
+    <div class="header-container">
+        <div class="video-container">
+            <video preload="true" autoplay="autoplay" muted poster="./assets/img/header-poster.png" loop
+                id="headerVideo" style="width: 100%;">
+                <source src="assets/video/header.mp4" type="video/mp4">
+            </video>
+            <!-- <img src="./assets/img/header-fillin.jpg" alt="header" style="width: 100%;"> -->
+        </div>
     </div>
-</div>
+    <!-- VIDEO HEADER END -->
 
-        <!-- NAV BAR -->
-        <nav class="navbar bg-transparent navbar-dark video-overlay">
-            <a class="navbar-brand" href="#"><img src="./assets/img/logo192x192.png" alt="logo" height="60px"
-                    style="display: none;"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation"
-                style="background-color: black; opacity: 0.8; color: rgba(78, 178, 218, 0.966);">
-                <span class="navbar-toggler-icon">
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-                <ul role="menu" aria-label="main">
-                    <a role="menuitem" href="./">Home</a>
-                    <a role="menuitem" href="./about.html">About</a>
-                    <a role="menuitem" href="./services.html">Services</a>
-                    <a role="menuitem" href="./contact.html">Contact</a>
-                </ul>
-            </div>
-        </nav>
-        <!-- END OF NAVBAR -->
-<!-- HEADER -->
-
-
-<div class="mission-statement">
-    <ul>
-        <li>
-            <h1 class="mission-statement-words">SERVICES</h1>
-        </li>
-    </ul>
-</div>
+    <!-- NAV BAR -->
+    <nav class="navbar bg-transparent navbar-dark video-overlay">
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo192x192.png" alt="logo" height="60px"
+                style="display: none;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation"
+            style="background-color: black; opacity: 0.8; color: rgba(78, 178, 218, 0.966);">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul role="menu" aria-label="main">
+                <a role="menuitem" href="./">Home</a>
+                <a role="menuitem" href="./about.html">About</a>
+                <a role="menuitem" href="./services.html">Services</a>
+                <a role="menuitem" href="./contact.html">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+    <div class="mission-statement">
+        <ul>
+            <li><img src="./assets/img/logo310x310.png" alt="Respawn Therapy Logo" style="width: 300px;"></li>
+            <li>
+                <h1 class="mission-statement-words">GAME ON.</h1>
+            </li>
+        </ul>
+    </div>
 </header>
-    <main>
+<main>
 
+        <div class="alt-section row"> 
 
-        <div class="alt-section row">
             <section class="page-section" id="about">
                 <div class="container">
                     <div class="text-center">
@@ -142,8 +145,10 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Schedule a call with one of our Esports PTs and get an idea of
-                                        whether PT is the right solution for your problem. We can help determine whether PT is
-                                        the right solution for you or will direct you to the proper medical professional if not.
+                                        whether PT is the right solution for your problem. We can help determine whether
+                                        PT is
+                                        the right solution for you or will direct you to the proper medical professional
+                                        if not.
                                     </p>
                                 </div>
                             </div>
@@ -157,7 +162,8 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">A skilled Esports PT will come to you (Greater Los Angeles
-                                        area only) and perform a detailed evaluation. They will provide you an explanation of potential
+                                        area only) and perform a detailed evaluation. They will provide you an
+                                        explanation of potential
                                         pathology/source of pain and a comprehensive treatment plan based on your
                                         impairments.
                                     </p>
@@ -187,21 +193,25 @@
                                     <h4>4. Online Evaluation</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">A skilled Esports PT will schedule an Evaluation with you via webcam. They will perform an
-                                        assessment of your current symptoms and provide a treatment plan based on impairments and likely pathology. A great option during COVID-19 quarantine or
+                                    <p class="text-muted">A skilled Esports PT will schedule an Evaluation with you via
+                                        webcam. They will perform an
+                                        assessment of your current symptoms and provide a treatment plan based on
+                                        impairments and likely pathology. A great option during COVID-19 quarantine or
                                         if you are not located in Los Angeles!
                                     </p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted" id="end-timeline">
-                            <a href="./contact.html"> <div class="timeline-image"><img class="rounded-circle img-fluid end-timeline"
-                                src="assets/img/services/end-timeline.png" alt="" /></div></a>
+                            <a href="./contact.html">
+                                <div class="timeline-image"><img class="rounded-circle img-fluid end-timeline"
+                                        src="assets/img/services/end-timeline.png" alt="" /></div>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </section>
-           
+
         </div>
         <div class="prim-section row social-media">
             <section aria-labelledby="h-staff" class="sections col scroll-padding">
@@ -223,7 +233,7 @@
         </div>
     </main>
     <footer class="alt-section">
-        <div class="row">
+        <div class="row alt-section">
             <section aria-labelledby="h-location" class="sections location col scroll-padding">
                 <h2 id="h-location">Location</h2>
                 <div class="box">
@@ -261,7 +271,7 @@
 
             <ul class="box" role="menu" aria-label="main" style="margin-left: auto; margin-right: auto;">
                 <li><a role="menuitem" href="./">Home</a></li>
-                <li><a role="menuitem" href="./services.html">Services</a></li>
+                <li><a role="menuitem" href="./about.html">About</a></li>
                 <li><a role="menuitem" href="./team.html">Team</a></li>
                 <li><a role="menuitem" href="./contact.html">Contact Us</a></li>
             </ul>
@@ -271,8 +281,6 @@
     </footer>
 
 
-    <!-- <script src="./assets/js/app.js"></script> -->
-    <script src="./assets/js/carousel.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

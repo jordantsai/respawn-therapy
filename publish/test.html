@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Top Banner -->
+    <section class="parallax alta-hero-section" style="background-image: url('https://www.youtube.com/watch?v=pIZk2u2GPhk');"
+        data-speed="0.05" data-jarallax-video="mp4:./assets/img/header-poster.png">
+        <div class="row h-100 no-gutters d-lg-block d-lg-flex align-items-stretch"'> 
+    <div class="col-12 col-lg-6"> 
+    <div class="learn-more d-flex align-self-stretch border-right-opacity-15 h-100"> 
+    <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative"> 
+    <div class="mask bg-gird-1"></div>
+     <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
+    <div class="font-weight-normal line-height-lg h1 text-white m-0"> ENTERPRISE BACK OFFICE FOR RESTAURANT CHAINS </div> 
+    <div class="hero-btn-group mt-2"> 
+    <a href="https://altametrics.com/restaurant-back-office.html" type="button" class="btn btn-outline-light btn-lg rounded-0"> Learn More 
+    </a> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    <div class="col-12 col-lg-3">
+     <div class="learn-more d-flex align-self-stretch border-bottom-opacity-15 h-50">
+     <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative">
+     <div class="mask bg-gird-2"></div>
+     <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
+    <div class="font-weight-normal line-height-lg h4 m-0 text-white"> WORKFORCE MANAGEMENT </div> 
+    <div class="hero-btn-group mt-2"> 
+    <a href="https://altametrics.com/workforce-scheduling.html" type="button" class="btn btn-outline-light btn-lg mb-4 rounded-0"> Learn More
+     </a> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    <div class="learn-more d-flex align-self-stretch h-50"> 
+    <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative "> 
+    <div class="mask bg-gird-3"></div> 
+    <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
+    <div class="font-weight-normal line-height-lg h4 m-0 text-white"> FOOD COST AND INVENTORY MANAGEMENT
+     </div> 
+    <div class="hero-btn-group mt-2"> 
+    <a href="https://altametrics.com/restaurant-inventory.html" type="button" class="btn btn-outline-light btn-lg mb-4 rounded-0"> Learn More
+     </a> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    </div> 
+    <div class="col-12 col-lg-3 "> 
+    <div class="learn-more d-flex align-self-stretch border-left-opacity-15 h-100"> 
+    <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative"> 
+    <div class="mask bg-gird-4"></div> 
+    <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
+    <div class="font-weight-normal line-height-lg h4 m-0 text-white"> BUSINESS INTELLIGENCE AND REPORTING 
+    </div> 
+    <div class="hero-btn-group mt-2"> <a href="https://altametrics.com/restaurant-reporting.html" type="button" class="btn btn-outline-light btn-lg mb-4 rounded-0"> Learn More 
+    </a> 
+    </div> 
+    </div>
+<script src="https://altametrics.com/js/jarallax.js"></script> <script src="https://altametrics.com/js/jarallax-video.js"></script>
+<script type="text/javascript"> $(document).ready(function(){ objectFitImages(); /* init Jarallax */ jarallax(document.querySelectorAll('.parallax')); }); AOS.init({ duration: 700, easing: "ease-out-quad" , once: !0, startEvent: "load" });
+            $(window).bind("load", function () { positionFooter(); var top_offset=jQuery('.alta-header').outerHeight();
+            function positionFooter() { var scrollTop=$(window).scrollTop(); var $prodNavLogo=$(".navbar-brand-logo");
+            var $prodNavbar=jQuery(".product-detail-navbar"); if (scrollTop>= top_offset &&
+            !$prodNavbar.hasClass('fixed-top')) { $prodNavbar.addClass("fixed-top"); $prodNavLogo.fadeIn('fast');
+            $prodNavLogo.animate({ marginLeft: '0px', opacity: 1 }, 500); } else if (scrollTop <= top_offset &&
+                $prodNavbar.hasClass('fixed-top')) { $prodNavbar.removeClass("fixed-top"); $prodNavLogo.animate({
+                marginLeft: '-2.75rem' , opacity: 0 }, 500); } } $(window).scroll(positionFooter); });
+                jQuery(document).ready(function () { var clustr_navbar=jQuery('.js-scroll-nav'); if
+                (clustr_navbar.length> 0) { var top_offset = 30; if (jQuery('#header-snap')) { top_offset =
+                jQuery('#header-snap').outerHeight() + 20; } clustr_navbar.onePageNav({ offset: top_offset, filter:
+                ':not(.external)' }); } $(".close-sticky-footer").on('click', function () {
+                jQuery(".sticky-footer").slideDown().remove(); }); /*== JS for API/Validator fixed Navbar ==*/
+                $(".developer-nav li a").on('click', function () { var target = $(this.hash), navbarHeight =
+                $(".navbar-default").height(); if ($(this).hasClass("active") ||
+                $(this).parents("ul.dropdown").siblings("a").hasClass( "active")) { jQuery('html,body').animate({
+                scrollTop: target.offset().top - (navbarHeight) }, 1000); return false; } else { if
+                ($(this).hasClass("has-child")) { $(".developer-nav li a").removeClass("active");
+                $(this).addClass("active"); $(".developer-nav li ul").slideUp();
+                $(this).siblings("ul.dropdown").slideDown(); jQuery('html,body').animate({ scrollTop:
+                target.offset().top - (navbarHeight) }, 1000); } else { $(".developer-nav li a").removeClass("active");
+                $(this).addClass("active"); $(".developer-nav li ul").slideUp(); jQuery('html,body').animate({
+                scrollTop: target.offset().top - (navbarHeight) }, 1000); } } }); /*== JS for API/Validator fixed Navbar
+                End ==*/ $('a[data-modal]').on('click', function (e) { e.preventDefault(); var $page =
+                $(this).data('page'); var $image = $(this).data('image'); var $video = $(this).data('video'); var
+                $videourl = $(this).data('videourl'); var $title = $(this).data('title'); var $size =
+                $(this).data('size'); $('#quickViewModal .modal-title').text($title); if ($size) { $('#quickViewModal.modal-dialog').addClass('modal-' + $size); } if ($image) { $('#quickViewModal .modal-body').html( '<div class="text-center"><img class="img-fluid" src="' + $image + '"></div>'); } else if ($video) {
+                $modal_body = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="' + $video + '" allowfullscreen></iframe></div>';
+                $('#quickViewModal .modal-body').html($modal_body); 
+                } else if($videourl) { 
+                    $modal_body = '<div class="embed-responsive embed-responsive-16by9"><video controls autoplay>
+                        <source src="https://altametrics.com'+$videourl+'" type="video/mp4"></video></div>';
+                $('#quickViewModal .modal-body').html($modal_body); } if ($page) { $('#quickViewModal.modal-body').load($page, function () { $('#quickViewModal').modal({ show: true }); }); } else {
+                $('#quickViewModal').modal({ show: true }); } $('#quickViewModal').on('hidden.bs.modal', function () {
+                $('#quickViewModal .modal-title').text(''); $('#quickViewModal .modal-body').html(''); if ($size) {
+                $('#quickViewModal .modal-dialog').removeClass('modal-' + $size); } }).on('shown.bs.modal',function (){
+                console.log('oepn'); /*$('.modal-body').find('iframe')[0].src +=
+                "?&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1";*/ }); }); }); </script>
+</body>
+
+</html>
