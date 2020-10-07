@@ -247,6 +247,9 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem; } }
 
+a:hover .email, a:active .email, a:focus .email {
+  color: rgba(78, 178, 218, 0.966); }
+
 .container {
   margin-right: auto;
   margin-left: auto;
