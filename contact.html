@@ -136,18 +136,10 @@
         <div class="alt-section row">
             <section class="sections new-patient contact col">
                 <h2>Contact Us</h2>
-                
-                <a href="./assets/download/SMPTIntakeForms.pdf">
-                    <span class="sr-only">intake form pdf</span>
-                    <img role="presentation" src="./assets/img/pdf-icon-white-96x96.png" alt="pdf document">
-                </a>
 
                 <h2>Appointments</h2>
                 Use the form below to contact us and we’ll call you back to schedule an appointment. Please be as
-                detailed as possible. Include your insurance provider, referring physician, and diagnosis if possible.
-                To help us best serve your inquiry, we recommend that you first describe the issue you’re having before
-                telling us what you want to achieve. You may also call us directly to make an appointment. Our general
-                response time is one business day.
+                detailed as possible. You may also call us directly to make an appointment. Our general response time is one business day.
 
                 <form action="https://formsubmit.co/respawntherapist@gmail.com" method="post"
                     onsubmit="return formValid()">
@@ -161,25 +153,11 @@
                     <label for="contact-email">Email</label>
                     <input type="email" name="email" id="contact-email">
 
-                    <label for="contact-insurance">Insurance</label>
-                    <select name="insurance" id="contact-insurance">
-                        <option value="cash">No Insurance / Cash</option>
-                        <option value="Medicare">Medicare</option>
-                        <option value="BlueShield">Blue Shield</option>
-                        <option value="Aetna">Aetna</option>
-                        <option value="BlueCross">Blue Cross</option>
-                        <option value="Cigna">Cigna</option>
-                    </select>
-
                     <label for="contact-therapist">Desired Therapist</label>
                     <select name="therapist" id="contact-therapist">
                         <option>Select One (Optional)</option>
                         <option value="Jordan Tsai">Jordan Tsai</option>
                         <option value="Jennifer Thai">Jennifer Thai</option>
-                        <option value="Hanna Hoffman">Hanna Hoffman</option>
-                        <option value="Shiraj Chakraborty">Shiraj Chakraborty</option>
-                        <option value="Alex Cascon">Alex Cascone</option>
-                        <option value="Arian Irannejad">Arian Irannejad</option>
                     </select>
 
                     <label for="contact-time">Desired Time</label>
@@ -198,14 +176,27 @@
                         <option value="5:00PM">5:00 PM</option>
                     </select>
 
-                    <label for="contact-concern">Briefly Describe Your Concern</label>
+                    <label for="contact-origin">How did you hear about us?</label>
+                    <select name="Select One" id="contact-origin">
+                        <option>Select One (Optional)</option>
+                        <option value="Google">Google</option>
+                        <option value="Forums">Forums</option>
+                        <option value="Discord">Discord</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Referral">Referral</option>
+                        <option value="Friend">Friend or Family Member</option>
+                        <option value="eSports Team">eSports Team</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="contact-concern">How can we help you?</label>
                     <textarea name="concern" id="contact-concern" rows="3" maxlength="280"></textarea>
 
                     <div class="check-group">
                         <input type="checkbox" name="agreetoterms" id="contact-terms" required>
                         <label for="contact-terms" id="terms-label">I understand and agree that any information
                             submitted will be forwarded to our office by email and not via a secure messaging system.
-                            This form should not be used to transmit private health information, and we disclaim all
+                            This form should not be used to transmit private information, and we disclaim all
                             warranties with respect to the privacy and confidentiality of any information submitted
                             through this form.</label>
                     </div>
@@ -220,7 +211,7 @@
                     <div data-aos="zoom-out-up">
                         <a href="http://instagram.com/respawn.therapy" target="_blank"><img
                                 src="./assets/img/social-media/instagram.png" alt="Discord"></a>
-                        <a href="https://discord.com/invite/rMR42e" target="_blank"><img
+                        <a href="https://discord.gg/3mAQT96" target="_blank"><img
                                 src="./assets/img/social-media/discord.png" alt="Discord"></a>
                         <a href="https://www.facebook.com/respawn.therapy/" target="_blank"><img
                                 src="./assets/img/social-media/facebook.png" alt="Facebook"></a>
