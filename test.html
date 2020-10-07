@@ -2,107 +2,264 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- title -->
+    <title>Respawn Therapy</title>
+    <meta property="og:title" content="Respawn Therapy">
+    <meta name="apple-mobile-web-app-title" content="Respawn Therapy">
+
+    <!-- url -->
+    <link rel="canonical" href="https://www.respawntherapy.com">
+    <meta property="og:url" content="https://www.respawntherapy.com">
+
+    <!-- description -->
+    <meta name="description" content="E-Sports Physical Therapy">
+    <meta property="og:description" content="E-Sports Physical Therapy">
+    <meta property="og:type" content="website">
+
+    <!-- image -->
+    <meta property="og:image" content="https://www.respawntherapy.com/assets/img/logo1200x630.png">
+    <meta property="og:image:alt" content="Respawn Therapy Orthopedic + E-Sports Physical Therapy" />
+
+    <!-- theme -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#6797AA">
+
+    <!-- icons -->
+    <link rel="icon" sizes="192x192" href="./assets/img/logo192x192.png">
+    <link rel="apple-touch-icon" href="./assets/img/logo192x192.png">
+    <meta name="msapplication-square310x310logo" content="./assets/img/logo310x310.png">
+
+    <!-- links -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- structured data -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://www.schema.org",
+            "@type": "Physician",
+            "@id": "https://www.respawntherapy.com",
+            "name": "Respawn Therapy",
+            "image": "https://www.respawntherapy.com/assets/img/logo1200x630.png",
+            "url": "https://www.respawntherapy.com",
+            "logo": "https://www.respawntherapy.com/assets/img/favicon.png",
+            "description": "Orthopedic + E-Sports Physical Therapy",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1821 Wilshire Blvd, Suite 400",
+                "addressLocality": "Santa Monica",
+                "addressRegion": "CA",
+                "postalCode": "90403",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "34.030545",
+                "longitude": " -118.484660"
+            },
+            "hasMap": "https://goo.gl/maps/6dgYr8wF2JJKBhcu5",
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "07:00",
+                "closes": "18:00"
+            },
+            "telephone": "949-547-3719",
+            "email": "respawntherapist@gmail.com",
+            "fax": "310-829-1379"
+        }
+    </script>
 </head>
 
 <body>
-    <!-- Top Banner -->
-    <section class="parallax alta-hero-section" style="background-image: url('https://www.youtube.com/watch?v=pIZk2u2GPhk');"
-        data-speed="0.05" data-jarallax-video="mp4:./assets/img/header-poster.png">
-        <div class="row h-100 no-gutters d-lg-block d-lg-flex align-items-stretch"'> 
-    <div class="col-12 col-lg-6"> 
-    <div class="learn-more d-flex align-self-stretch border-right-opacity-15 h-100"> 
-    <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative"> 
-    <div class="mask bg-gird-1"></div>
-     <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
-    <div class="font-weight-normal line-height-lg h1 text-white m-0"> ENTERPRISE BACK OFFICE FOR RESTAURANT CHAINS </div> 
-    <div class="hero-btn-group mt-2"> 
-    <a href="https://altametrics.com/restaurant-back-office.html" type="button" class="btn btn-outline-light btn-lg rounded-0"> Learn More 
-    </a> 
-    </div> 
-    </div> 
-    </div> 
-    </div> 
-    </div> 
-    <div class="col-12 col-lg-3">
-     <div class="learn-more d-flex align-self-stretch border-bottom-opacity-15 h-50">
-     <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative">
-     <div class="mask bg-gird-2"></div>
-     <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
-    <div class="font-weight-normal line-height-lg h4 m-0 text-white"> WORKFORCE MANAGEMENT </div> 
-    <div class="hero-btn-group mt-2"> 
-    <a href="https://altametrics.com/workforce-scheduling.html" type="button" class="btn btn-outline-light btn-lg mb-4 rounded-0"> Learn More
-     </a> 
-    </div> 
-    </div> 
-    </div> 
-    </div> 
-    <div class="learn-more d-flex align-self-stretch h-50"> 
-    <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative "> 
-    <div class="mask bg-gird-3"></div> 
-    <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
-    <div class="font-weight-normal line-height-lg h4 m-0 text-white"> FOOD COST AND INVENTORY MANAGEMENT
-     </div> 
-    <div class="hero-btn-group mt-2"> 
-    <a href="https://altametrics.com/restaurant-inventory.html" type="button" class="btn btn-outline-light btn-lg mb-4 rounded-0"> Learn More
-     </a> 
-    </div> 
-    </div> 
-    </div> 
-    </div> 
-    </div> 
-    <div class="col-12 col-lg-3 "> 
-    <div class="learn-more d-flex align-self-stretch border-left-opacity-15 h-100"> 
-    <div class="d-flex align-items-center flex-wrap flex-row h-100 border-0 w-100 position-relative"> 
-    <div class="mask bg-gird-4"></div> 
-    <div class="text-white text-center box-max-width mx-auto p-4 position-relative"> 
-    <div class="font-weight-normal line-height-lg h4 m-0 text-white"> BUSINESS INTELLIGENCE AND REPORTING 
-    </div> 
-    <div class="hero-btn-group mt-2"> <a href="https://altametrics.com/restaurant-reporting.html" type="button" class="btn btn-outline-light btn-lg mb-4 rounded-0"> Learn More 
-    </a> 
-    </div> 
-    </div>
-<script src="https://altametrics.com/js/jarallax.js"></script> <script src="https://altametrics.com/js/jarallax-video.js"></script>
-<script type="text/javascript"> $(document).ready(function(){ objectFitImages(); /* init Jarallax */ jarallax(document.querySelectorAll('.parallax')); }); AOS.init({ duration: 700, easing: "ease-out-quad" , once: !0, startEvent: "load" });
-            $(window).bind("load", function () { positionFooter(); var top_offset=jQuery('.alta-header').outerHeight();
-            function positionFooter() { var scrollTop=$(window).scrollTop(); var $prodNavLogo=$(".navbar-brand-logo");
-            var $prodNavbar=jQuery(".product-detail-navbar"); if (scrollTop>= top_offset &&
-            !$prodNavbar.hasClass('fixed-top')) { $prodNavbar.addClass("fixed-top"); $prodNavLogo.fadeIn('fast');
-            $prodNavLogo.animate({ marginLeft: '0px', opacity: 1 }, 500); } else if (scrollTop <= top_offset &&
-                $prodNavbar.hasClass('fixed-top')) { $prodNavbar.removeClass("fixed-top"); $prodNavLogo.animate({
-                marginLeft: '-2.75rem' , opacity: 0 }, 500); } } $(window).scroll(positionFooter); });
-                jQuery(document).ready(function () { var clustr_navbar=jQuery('.js-scroll-nav'); if
-                (clustr_navbar.length> 0) { var top_offset = 30; if (jQuery('#header-snap')) { top_offset =
-                jQuery('#header-snap').outerHeight() + 20; } clustr_navbar.onePageNav({ offset: top_offset, filter:
-                ':not(.external)' }); } $(".close-sticky-footer").on('click', function () {
-                jQuery(".sticky-footer").slideDown().remove(); }); /*== JS for API/Validator fixed Navbar ==*/
-                $(".developer-nav li a").on('click', function () { var target = $(this.hash), navbarHeight =
-                $(".navbar-default").height(); if ($(this).hasClass("active") ||
-                $(this).parents("ul.dropdown").siblings("a").hasClass( "active")) { jQuery('html,body').animate({
-                scrollTop: target.offset().top - (navbarHeight) }, 1000); return false; } else { if
-                ($(this).hasClass("has-child")) { $(".developer-nav li a").removeClass("active");
-                $(this).addClass("active"); $(".developer-nav li ul").slideUp();
-                $(this).siblings("ul.dropdown").slideDown(); jQuery('html,body').animate({ scrollTop:
-                target.offset().top - (navbarHeight) }, 1000); } else { $(".developer-nav li a").removeClass("active");
-                $(this).addClass("active"); $(".developer-nav li ul").slideUp(); jQuery('html,body').animate({
-                scrollTop: target.offset().top - (navbarHeight) }, 1000); } } }); /*== JS for API/Validator fixed Navbar
-                End ==*/ $('a[data-modal]').on('click', function (e) { e.preventDefault(); var $page =
-                $(this).data('page'); var $image = $(this).data('image'); var $video = $(this).data('video'); var
-                $videourl = $(this).data('videourl'); var $title = $(this).data('title'); var $size =
-                $(this).data('size'); $('#quickViewModal .modal-title').text($title); if ($size) { $('#quickViewModal.modal-dialog').addClass('modal-' + $size); } if ($image) { $('#quickViewModal .modal-body').html( '<div class="text-center"><img class="img-fluid" src="' + $image + '"></div>'); } else if ($video) {
-                $modal_body = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="' + $video + '" allowfullscreen></iframe></div>';
-                $('#quickViewModal .modal-body').html($modal_body); 
-                } else if($videourl) { 
-                    $modal_body = '<div class="embed-responsive embed-responsive-16by9"><video controls autoplay>
-                        <source src="https://altametrics.com'+$videourl+'" type="video/mp4"></video></div>';
-                $('#quickViewModal .modal-body').html($modal_body); } if ($page) { $('#quickViewModal.modal-body').load($page, function () { $('#quickViewModal').modal({ show: true }); }); } else {
-                $('#quickViewModal').modal({ show: true }); } $('#quickViewModal').on('hidden.bs.modal', function () {
-                $('#quickViewModal .modal-title').text(''); $('#quickViewModal .modal-body').html(''); if ($size) {
-                $('#quickViewModal .modal-dialog').removeClass('modal-' + $size); } }).on('shown.bs.modal',function (){
-                console.log('oepn'); /*$('.modal-body').find('iframe')[0].src +=
-                "?&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1";*/ }); }); }); </script>
+    <header>
+
+
+
+        <!-- VIDEO HEADER -->
+        <div class="header-container">
+            <div class="video-container">
+                <video preload="true" autoplay="autoplay" muted poster="./assets/img/header-poster.png" loop
+                    id="headerVideo" style="width: 100%;">
+                    <source src="assets/video/header.mp4" type="video/mp4">
+                </video>
+                <!-- <img src="./assets/img/header-fillin.jpg" alt="header" style="width: 100%;"> -->
+            </div>
+        </div>
+        <!-- VIDEO HEADER END -->
+
+        <!-- NAV BAR -->
+        <nav class="navbar bg-transparent navbar-dark video-overlay">
+            <a class="navbar-brand" href="#"><img src="./assets/img/logo192x192.png" alt="logo" height="60px"
+                    style="display: none;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation"
+                style="background-color: black; opacity: 0.8; color: rgba(78, 178, 218, 0.966);">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul role="menu" aria-label="main">
+                    <a role="menuitem" href="./">Home</a>
+                    <a role="menuitem" href="./team.html">Team</a>
+                    <a role="menuitem" href="./services.html">Services</a>
+                    <a role="menuitem" href="./contact.html">Contact</a>
+                </ul>
+            </div>
+        </nav>
+        <!-- END OF NAVBAR -->
+        <div class="mission-statement">
+            <ul>
+                <li><img src="./assets/img/logo310x310.png" alt="Respawn Therapy Logo" style="width: 300px;"></li>
+                <li>
+                    <h1 class="mission-statement-words">GAME ON.</h1>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <main>
+    
+
+        <div class="alt-section row">
+            <section aria-labelledby="h-services" class="sections services col scroll-padding">
+                <h2 id="h-services">About</h2>
+                <div class="box">
+                    <div>
+                        <ul aria-labelledby="h-services h-care">
+                            Respawn Therapy is a team of Doctors of Physical Therapy commited to improving the health
+                            and wellness of gamers everywhere. We provide physical therapy services to some of the
+                            largest esports organizations in the world including Cloud9, TSM, Evil Geniuses, and Team
+                            Liquid. We can help you discover and treat the source of your pain, instruct you in
+                            exercises to prevent future injuries, and understand your body better. Pain and disability
+                            shouldn't get in the way of playing and we want to help you Game On.
+                        </ul>
+                    </div>
+                </div>
+                <h2 id="h-services" style="margin-top: 50px;">Clients</h2>
+                <div class="box pro-team-mobile">
+                    <div>
+                        <ul aria-labelledby="h-services h-care">
+                                <div>
+                                    <img src="./assets/img/pro-teams/cloud9.png" alt="Cloud9" data-toggle="popover" data-placement="top" data-content="Cloud9">
+                                    <img src="./assets/img/pro-teams/EG-stack.png" alt="EG-Stack" data-toggle="popover" data-placement="bottom" data-content="Evil Geniuses">
+                                    <img src="./assets/img/pro-teams/tsm.png" alt="tsm" data-toggle="popover" data-placement="top" data-content="Team SoloMid">
+                                    <img src="./assets/img/pro-teams/TL.png" alt="TL" data-toggle="popover" data-placement="bottom" data-content="Team Liquid">
+                                </div>
+                            </ul>
+                    </div>
+                </div>
+        <div class="pro-team-bubble" style="padding: 80px 10px; line-height: 100px;">
+            <div class="bubble-stack x1"><img src="./assets/img/pro-teams/cloud9.png" alt="Cloud9"></div>
+            <div class="bubble-wide x2"><img src="./assets/img/pro-teams/EG-stack.png" alt="EG-Stack"></div>
+            <div class="bubble-stack x3"><img src="./assets/img/pro-teams/tsm.png" alt="tsm"></div>
+            <div class="bubble-wide x4"><img src="./assets/img/pro-teams/TL.png" alt="TL"></div>
+        </div>
+    </section>
+</div>
+        <div class="prim-section row social-media">
+            <section aria-labelledby="h-staff" class="sections col scroll-padding">
+                <ul aria-labelledby="h-social-media h-pt" class="box">
+                    <div data-aos="zoom-out-up">
+                        <a href="http://instagram.com/respawn.therapy" target="_blank"><img
+                                src="./assets/img/social-media/instagram.png" alt="Discord"></a>
+                        <a href="https://discord.com/invite/rMR42e" target="_blank"><img
+                                src="./assets/img/social-media/discord.png" alt="Discord"></a>
+                        <a href="https://www.facebook.com/respawn.therapy/" target="_blank"><img
+                                src="./assets/img/social-media/facebook.png" alt="Facebook"></a>
+                        <a href="" target="_blank"><img src="./assets/img/social-media/twitch.png" alt="Twitch"></a>
+                        <a href="" target="_blank"><img src="./assets/img/social-media/twitter.png" alt="Twitter"></a>
+                    </div>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="alt-section">
+        <div class="row">
+            <section aria-labelledby="h-location" class="sections location col scroll-padding">
+                <h2 id="h-location">Location</h2>
+                <div class="box">
+                    <div>
+                        <h3>Address</h3>
+                        <address aria-label="location street address">
+                            1821 Wilshire Blvd. Ste 400<br>
+                            Santa Monica, CA 90403
+                        </address>
+                    </div>
+                    <div>
+                        <h3 id="h-hours">Hours</h3>
+                        <p aria-labelledby="h-location h-hours">
+                            Monday - Friday<br>
+                            7AM - 6PM
+                        </p>
+                    </div>
+                    <div>
+                        <h3 id="h-phone">Phone</h3>
+                        <address aria-labelledby="h-location h-phone">
+                            (310) 828-2188
+                        </address>
+                    </div>
+                    <div>
+                        <h3 id="h-email">Email</h3>
+                        <address aria-labelledby="h-location h-email">
+                            <a href = "mailto: respawntherapist@gmail.com" target="_blank" class="email">respawntherapist@gmail.com</a>
+                        </address>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <nav class="row" aria-label="website">
+
+            <ul class="box" role="menu" aria-label="main" style="margin-left: auto; margin-right: auto;">
+                <li><a role="menuitem" href="./">Home</a></li>
+                <li><a role="menuitem" href="./team.html">Team</a></li>
+                <li><a role="menuitem" href="./services.html">Services</a></li>
+                <li><a role="menuitem" href="./contact.html">Contact Us</a></li>
+            </ul>
+
+        </nav>
+        © 2020
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+            delay: 50,
+            easing: 'ease',
+            once: false,
+        });
+    </script>
+        <script>
+            $(document).ready(function(){
+              $('[data-toggle="popover"]').popover();
+            });
+            </script>
 </body>
 
 </html>
