@@ -1123,12 +1123,12 @@ $color-black: #191308;
 
     input, select, textarea {
         display: block;
-        height: 30px;
+        height: 35px;
         width: 300px;
         border: 1px solid hsla(197, 15%, 15%, 1);
-        border-radius: 2px;
+        border-radius: 5px;
         padding: 2px;
-        background-color: rgba(255, 255, 255, 0.925);
+        background-color: rgba(255, 255, 255, 0.801);
     }
     textarea {
         height: unset;
