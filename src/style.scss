@@ -2,6 +2,8 @@
 
 $primary: #4eb1da;
 $secondary: #6797AA;
+$color-primary-light: rgba(197, 197, 197, 0.85);
+$color-primary-dark: rgba(20, 20, 20, 0.945);
 
 @font-face {
     font-family: "Fivo Sans Medium";
@@ -51,6 +53,7 @@ h1, h2, h3 {
 nav {
     padding-bottom: 20px;
     z-index: 1;
+    background-color: rgba(20, 20, 20, 0.945);
 }
   #navbarToggleExternalContent {
     a {
@@ -294,7 +297,10 @@ header.masthead {
       margin-bottom: 4rem;
     }
   }
-
+  .page-title {
+    font-size: 75px;
+    margin: 20px 10px 20px 10px;
+  }
 // Body 
 a:hover, a:active, a:focus {
 .email{
@@ -303,8 +309,6 @@ a:hover, a:active, a:focus {
 }
 
 .container {
-    // padding-right: 0.75rem;
-    // padding-left: 0.75rem;
     margin-right: auto;
     margin-left: auto;
     width: 100vw;
@@ -332,8 +336,6 @@ a:hover, a:active, a:focus {
   
   .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
     width: 100vw;
-    // padding-right: 0.75rem;
-    // padding-left: 0.75rem;
     margin-right: auto;
     margin-left: auto;
   }
@@ -368,10 +370,11 @@ body {
 }
 
 .row {
-    padding: 64px 0px 10px 0px;
+   padding: 34px 0px 10px 0px;
 }
+
 .sections {
-    padding: 6rem 0;
+    padding: 2rem 0;
     overflow: hidden;
 
    h2 {
@@ -396,8 +399,17 @@ body {
     color:black;
     text-align: center;
     h2 {
-        color: $primary;
+        color: black;
     }
+}
+
+.prim-section-clients {
+  background-color: rgba(197, 197, 197, 0.92);
+  color:black;
+  text-align: center;
+  h2 {
+      color: black;
+  }
 }
 
 .alt-section {
@@ -475,6 +487,43 @@ body {
         padding: 8px;
     }
 }
+// HEADER
+.header-section {
+  background-color: rgba(20, 20, 20, 0.945);
+  color: hsla(197, 15%, 85%, 1);
+  text-align: center;
+  height: 60vh;
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+  h2 {
+      color: $secondary;
+  }
+}
+.header-section-prim {
+  background-color:  rgba(197, 197, 197, 0.85);
+  color:black;
+  text-align: center;
+  height: 60vh;
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+  h2 {
+      color: $secondary;
+  }
+}
+.header-section-contact {
+  background-color: rgba(20, 20, 20, 0.945);
+  color: hsla(197, 15%, 85%, 1);
+  text-align: center;
+  height: 40vh;
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+  h2 {
+      color: $secondary;
+  }
+}
 //Social Media
 .social-media {
     img {
@@ -511,214 +560,18 @@ body {
 }
  }
 
-//PRO-TEAMS BUBBLES
 
-/* KEYFRAMES */
-
-@-webkit-keyframes animateBubble {
-    0% {
-        margin-top: 0px;
-    }
-    100% {
-        margin-top: 100px;
-    }
-}
-
-@-moz-keyframes animateBubble {
-    0% {
-        margin-top: 0px;
-    }
-    100% {
-        margin-top: 50px;
-    }
-}
-
-@keyframes animateBubble {
-    0% {
-        margin-top: 0px;
-    }
-    100% {
-        margin-top: 125px;
-    }
-}
-
-@-webkit-keyframes sideWays { 
-    0% { 
-        margin-left:1000px;
-    }
-    100% { 
-        margin-left:-100%;
-    }
-}
-
-@-moz-keyframes sideWays { 
-    0% { 
-        margin-left:1000px;
-    }
-    100% { 
-        margin-left:50px;
-    }
-}
-
-@keyframes sideWays { 
-    0% { 
-        margin-left:0px;
-    }
-    100% { 
-        margin-left:150px;
-    }
-}
-
-/* ANIMATIONS */
-
-// .x1 {
-//     -webkit-animation: animateBubble 25s linear infinite alternate, sideWays 2.7s ease-in-out infinite alternate;
-// 	-moz-animation: animateBubble 25s linear infinite alternate, sideWays 2.7s ease-in-out infinite alternate;
-// 	animation: animateBubble 25s linear infinite alternate, sideWays 2.7s ease-in-out infinite alternate;
-	
-// 	left: 5%;
-// 	top: 60%;
-	
-// 	-webkit-transform: scale(0.8);
-// 	-moz-transform: scale(0.8);
-// 	transform: scale(0.8);
-// }
-
-// .x2 {
-//     -webkit-animation: animateBubble 42s linear infinite alternate, sideWays 4s ease-in-out infinite alternate;
-// 	-moz-animation: animateBubble 42s linear infinite alternate, sideWays 4s ease-in-out infinite alternate;
-// 	animation: animateBubble 42s linear infinite alternate, sideWays 4s ease-in-out infinite alternate;
-	
-// 	left: 25%;
-// 	top: 60%;
-	
-// 	-webkit-transform: scale(0.7);
-// 	-moz-transform: scale(0.7);
-// 	transform: scale(0.7);
-// }
-
-// .x3 {
-//     -webkit-animation: animateBubble 33s linear infinite alternate, sideWays 1s ease-in-out infinite alternate;
-// 	-moz-animation: animateBubble 33s linear infinite alternate, sideWays 1s ease-in-out infinite alternate;
-// 	animation: animateBubble 33s linear infinite alternate, sideWays 2.5s ease-in-out infinite alternate;
-	
-// 	left: 46%;
-// 	top: 60%;
-	
-// 	-webkit-transform: scale(0.9);
-// 	-moz-transform: scale(0.9);
-// 	transform: scale(0.9);
-// }
-
-// .x4 {
-//     -webkit-animation: animateBubble 36s linear infinite alternate, sideWays 3s ease-in-out infinite alternate;
-// 	-moz-animation: animateBubble 36s linear infinite alternate, sideWays 1s ease-in-out infinite alternate;
-// 	animation: animateBubble 36s linear infinite alternate, sideWays 3s ease-in-out infinite alternate;
-	
-// 	left: 65%;
-// 	top: 60%;
-	
-// 	-webkit-transform: scale(0.7);
-// 	-moz-transform: scale(0.7);
-// 	transform: scale(0.7);
-// }
-// /* OBJECTS */
-
-// .bubble-stack {
-//     -webkit-border-radius: 50%;
-// 	-moz-border-radius: 50%;
-// 	border-radius: 50%;
-	
-//   //   -webkit-box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 15px 5px rgb(41, 41, 41);
-// 	// -moz-box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 15px 5px rgb(41, 41, 41);
-// 	// box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2), inset 0px 10px 5px 5px rgb(214, 212, 212);
-	
-//   // height: 220px;
-// 	position: absolute;
-// 	width: 220px;
-// }
-
-// .bubble-stack:after {
-
-// 	-webkit-border-radius: 50%;
-// 	-moz-border-radius: 50%;
-// 	border-radius: 50%;
-	
-// 	content: "";
-//     height: 180px;
-// 	left: 10px;
-// 	position: absolute;
-// 	width: 180px;
-// }
-// .bubble-wide {
-//   -webkit-border-radius: 50%;
-// -moz-border-radius: 50%;
-// border-radius: 50%;
-
-// //   -webkit-box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 15px 5px rgb(41, 41, 41);
-// // -moz-box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 15px 5px rgb(41, 41, 41);
-// // box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2), inset 0px 10px 5px 5px rgb(214, 212, 212);
-
-// position: absolute;
-// width: 250px;
-// }
-
-// .bubble-wide:after {
-
-// -webkit-border-radius: 50%;
-// -moz-border-radius: 50%;
-// border-radius: 50%;
-
-// content: "";
-//   height: 180px;
-// left: 10px;
-// position: absolute;
-// width: 180px;
-// }
-// .pro-team-bubble {
-//   display: inline;
-//   margin-left: auto;
-//   margin-right: auto;
-//   // justify-content: center; 
-//   img {
-//       width: 200px;
-//       padding: 20px;
-//   }
-// }
-
-// @media only screen and (max-width: 700px) {
-//   .pro-team-mobile{
-//     display: flex;
-//     justify-content: center;
-//   }
-//   img {
-//     width: 150px;
-//     margin: 20px;
-//   }
-//   }
-//   @media only screen and (min-width: 700px) {
-//     .pro-team-mobile{
-//       display: none;
-//     }
-//     }
-
-// @media only screen and (max-width: 700px) {
-// .pro-team-bubble {
-// display: none;
-// justify-content: center;
-// }
-// }
 
 .pro-team-mobile{
      display: flex;
      justify-content: center;
      img {
-       width: 150px;
+       height: 115px;
        margin: 20px;
      }
    }
 
- //SOCIAL MEDIA ICONS UPDATE
+//SOCIAL  MEDIA ICONS UPDATE
  $color-primary: #81c2de;
 $color-primary-light: #b4f5ff;
 $color-primary-dark: #4f92ac;
@@ -820,12 +673,10 @@ $color-black: #191308;
 }
 
 //Learn More Button
-.services-row {
-  height: 200px;
-}
 .button {
   margin-right: auto;
   margin-left: auto;
+
 	
 	--offset: 10px;
 	--border-size: 2px;
@@ -902,8 +753,27 @@ $color-black: #191308;
 	}
 	
 }
+.fancy-button {
+  padding: 30px 0px;
+}
 
+.normal-button {
+  display: none;
+}
 
+@media only screen and (max-width: 520px) {
+ .fancy-button {
+   display: none;
+ }
+ .normal-button {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 15px 0px;
+ }
+}
+.services-icon {
+  height: 120px;
+}
 // TIMELINE
 .page-section {
     padding: 6rem 0;
@@ -1248,16 +1118,17 @@ $color-black: #191308;
     label {
         text-align: center;
         padding: 0 8px;
+        color: $primary;
     }
 
     input, select, textarea {
         display: block;
-        height: 24px;
+        height: 30px;
         width: 300px;
         border: 1px solid hsla(197, 15%, 15%, 1);
-        border-radius: 4px;
+        border-radius: 2px;
         padding: 2px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.925);
     }
     textarea {
         height: unset;
