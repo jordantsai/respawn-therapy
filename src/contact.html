@@ -124,7 +124,18 @@
     <main>
         <div class="alt-section row">
             <section class="sections new-patient contact col">
-                <form action="https://formsubmit.co/joleenjtsai@gmail.com" method="post">
+                <form id="contactform" action="https://formsubmit.io/send/joleenjtsai@gmail.com" method="POST">
+                    <input name="name" type="text" id="name">
+                    <input name="email" type="email" id="email">
+                    <textarea name="comment" id="comment" rows="3"></textarea>
+                
+                    <input name="_formsubmit_id" type="text" style="display:none">
+                
+                    <button><input value="Submit" type="submit"></button>
+                </form>
+
+
+                <form id="contactform" action="https://formsubmit.io/send/joleenjtsai@gmail.com" method="POST">
                     <div class="row">
                         <div class="col">
                             <label for="contact-name">Name</label>
@@ -174,7 +185,8 @@
                                 maxlength="280"></textarea>
                         </div>
                     </div>
-                    <button type="submit" style="margin-bottom: 40px;">Submit</button>
+                    <input name="_formsubmit_id" type="text" style="display:none">
+                    <button><input value="Submit" type="submit"></button>
                 </form>
             </section>
         </div>
