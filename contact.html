@@ -124,75 +124,44 @@
     <main>
         <div class="alt-section row">
             <section class="sections new-patient contact col">
-                <form id="contactform" action="https://formsubmit.io/send/joleenjtsai@gmail.com" method="POST">
+                <form action="https://formsubmit.co/joleenjtsai@gmail.com" method="post"
+                    onsubmit="return formValid()">
+
                     <label for="contact-name">Name</label>
-                    <input name="name" type="text" id="name">
-                    <label for="contact-name">Email</label>
-                    <input name="email" type="email" id="email">
-                    <label for="contact-name">Phone</label>
-                    <input name="phone" type="tel" id="phone">
-                    <label for="contact-name">Comments?</label>
-                    <textarea name="comment" id="comment" rows="10"></textarea>
-                
-                    <input name="_formsubmit_id" type="text" style="display:none">
-                
-                    <button type="button" class="btn-outline-light btn-lg" style="margin: 15px; width: 150px;"><input value="Submit" type="submit" style="display: none;">Submit</button>
+                    <input type="text" name="name" id="contact-name" required>
+
+                    <label for="contact-phone">Phone</label>
+                    <input type="tel" name="phone" id="contact-phone">
+
+                    <label for="contact-email">Email</label>
+                    <input type="email" name="email" id="contact-email">
+
+                    <label for="contact-therapist">Desired Therapist</label>
+                    <select name="therapist" id="contact-therapist">
+                        <option>Select One (Optional)</option>
+                        <option value="Jordan Tsai">Jordan Tsai</option>
+                        <option value="Jennifer Thai">Jennifer Thai</option>
+                    </select>
+                    <label for="contact-time" style="margin-top: 10px;">Desired Time</label>
+                    <select name="time" id="contact-time">
+                        <option value="any">No Preference</option>
+                        <option value="7:00AM">7:00 AM</option>
+                        <option value="8:00AM">8:00 AM</option>
+                        <option value="9:00AM">9:00 AM</option>
+                        <option value="10:00AM">10:00 AM</option>
+                        <option value="11:00AM">11:00 AM</option>
+                        <option value="12:00PM">12:00 PM</option>
+                        <option value="1:00PM">1:00 PM</option>
+                        <option value="2:00PM">2:00 PM</option>
+                        <option value="3:00PM">3:00 PM</option>
+                        <option value="4:00PM">4:00 PM</option>
+                        <option value="5:00PM">5:00 PM</option>
+                    </select>
+                    <label for="contact-concern">How can we help you?</label>
+                    <textarea placeholder="Your message..." name="concern" id="contact-concern" rows="10"
+                        maxlength="280"></textarea>
+                    <button type="submit">Submit</button>
                 </form>
-
-
-                <!-- <form id="contactform" action="https://formsubmit.io/send/joleenjtsai@gmail.com" method="POST">
-                    <div class="row">
-                        <div class="col">
-                            <label for="contact-name">Name</label>
-                            <input type="text" name="name" id="contact-name" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col"> <label for="contact-phone" style="margin-top: 10px;">Phone</label>
-                            <input type="tel" name="phone" id="contact-phone">
-                        </div>
-                        <div class="col">
-                            <label for="contact-email" style="margin-top: 10px;">Email</label>
-                            <input type="email" name="email" id="contact-email" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <label for="contact-therapist" style="margin-top: 10px;">Desired Therapist</label>
-                            <select name="therapist" id="contact-therapist">
-                                <option>Select One (Optional)</option>
-                                <option value="Jordan Tsai">Jordan Tsai</option>
-                                <option value="Jennifer Thai">Jennifer Thai</option>
-                            </select>
-                        </div>
-                        <div class="col">
-                            <label for="contact-time" style="margin-top: 10px;">Desired Time</label>
-                            <select name="time" id="contact-time">
-                                <option value="any">No Preference</option>
-                                <option value="7:00AM">7:00 AM</option>
-                                <option value="8:00AM">8:00 AM</option>
-                                <option value="9:00AM">9:00 AM</option>
-                                <option value="10:00AM">10:00 AM</option>
-                                <option value="11:00AM">11:00 AM</option>
-                                <option value="12:00PM">12:00 PM</option>
-                                <option value="1:00PM">1:00 PM</option>
-                                <option value="2:00PM">2:00 PM</option>
-                                <option value="3:00PM">3:00 PM</option>
-                                <option value="4:00PM">4:00 PM</option>
-                                <option value="5:00PM">5:00 PM</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <label for="contact-concern" style="margin-top: 10px;">How can we help you?</label>
-                            <textarea placeholder="Your message..." name="concern" id="contact-concern" rows="10"
-                                maxlength="280"></textarea>
-                        </div>
-                    </div>
-                    <input name="_formsubmit_id" type="text" style="display:none">
-                    <button><input value="Submit" type="submit"></button>
-                </form> -->
             </section>
         </div>
         <div class="prim-section row social-media">
