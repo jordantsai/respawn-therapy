@@ -1,5 +1,5 @@
 
-<img style="width: 50%; margin-left: 25%;" src="./src/assets/img/logo570x220.png" alt="Respawn Therapy">
+<img style="width: 50%; margin-left: 25%;" src="./src/assets/img/logo310x310.png" alt="Respawn Therapy">
 
 _Respawn Therapy website & build tools_ 
 
