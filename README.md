@@ -1,6 +1,4 @@
 
-<img style="width: 5%; margin-left: auto, margin-right: auto;" src="./src/assets/img/logo192x192.png" alt="Respawn Therapy">
-
 _Respawn Therapy website & build tools_ 
 
 
